@@ -3,7 +3,7 @@
 const dodger = document.getElementById('dodger')
 
 
-function onKeyDown(){
+function onKeyDown(event){
   
   if (event.keycode === 37) {
     
