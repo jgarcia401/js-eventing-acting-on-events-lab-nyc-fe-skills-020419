@@ -12,6 +12,7 @@ function onKeyDown(event) {
     
     dodger.style.left = currentPosition + 5 + 'px'
 }
+}
 
 // 2 - Add the event listener
 document.addEventListener('keydown', onKeyDown)
