@@ -10,11 +10,10 @@ function onKeyDown(event) {
     if (currentPosition - 5 >= 0) {
     
     dodger.style.left = currentPosition - 5 + 'px'
-  } else if (event.keyCode === 39) { 
+  } } else if (event.keyCode === 39) { 
     
   moveDodgerRight()
   }
-}
 }
 
 function moveDodgerRight() {
