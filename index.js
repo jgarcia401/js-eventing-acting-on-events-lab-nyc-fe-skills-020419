@@ -7,7 +7,7 @@ function onKeyDown(event) {
     
     const currentPosition = parseInt(dodger.style.left)
     
-    dodger.style.left = currentPosition - 5 + px
+    dodger.style.left = currentPosition - 5 + 'px'
   }
 }
 
